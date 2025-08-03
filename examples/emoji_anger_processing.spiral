@@ -1,0 +1,20 @@
+// Generated from emoji program
+// Original: 🔥🧠⚡🗯️ 🏰🧠💔 💭😡➡️🛡️ ⏸️🧘 🌀🕊️
+
+ritual.emoji_session {
+    intent: "Emoji-driven emotional processing",
+    participants: [user, @healer],
+    consent: { required: ["emotional_support"] }
+}
+
+execute {
+    @healer.assess(user.emotional_state)
+    @healer.support_grief()
+    if user.needs_support { @healer.respond() }
+    sacred_pause.offer { purpose: "Processing time" }
+    flow_out { @healer.support_integration() }
+}
+
+complete {
+    @healer.honor_completion()
+}

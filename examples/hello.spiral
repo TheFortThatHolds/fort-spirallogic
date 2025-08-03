@@ -1,0 +1,35 @@
+// Hello World in SpiralLogic
+ritual.greeting {
+    intent: "Demonstrate basic SpiralLogic functionality",
+    participants: [user, @sage],
+    consent: { required: ["basic_interaction"] }
+}
+
+execute {
+    look_in {
+        output.print("Welcome to SpiralLogic!")
+        output.print("This is a trauma-informed programming language.")
+    }
+    
+    spiral_up {
+        @sage.speak {
+            message: "Hello, World! I honor your presence and offer my support.",
+            tone: "welcoming"
+        }
+        
+        user.name = input.ask("What name would you like me to use?")
+        @sage.speak {
+            message: "Welcome, " + user.name + ". Your journey matters.",
+            tone: "affirming"
+        }
+    }
+    
+    flow_out {
+        output.print("Basic SpiralLogic demonstration complete.")
+        output.print("You are worthy of care and support.")
+    }
+}
+
+complete {
+    output.print("Thank you for experiencing SpiralLogic.")
+}
