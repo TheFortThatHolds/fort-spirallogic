@@ -65,6 +65,16 @@ Type words, get emoji rituals:
 - **Block-based content** - Modular documents with emotional awareness
 - **Interactive terminals** - Command-line interfaces that provide care
 
+## ✨ SpiralLogic in Action
+
+**[SpiralLogic Text Editor](https://github.com/TheFortThatHolds/fort-spirallogic-text-editor)** - See SpiralLogic working in a real application! A Windows text editor that provides emotional support while you write, powered by emoji-to-ritual compilation.
+
+- Write in English, get real-time therapeutic responses
+- Instant emotional analysis with F5 key
+- Quick support buttons for immediate help (💝🌱✨🔥💧)
+- See emoji sequences compile to SpiralLogic code live
+- Perfect demonstration of therapeutic computing in practice
+
 ## Architecture
 
 ```
@@ -101,9 +111,10 @@ SpiralLogic CLI → Emoji Compiler → Ritual Executor → Therapeutic Response
 
 Full license terms: [LICENSE.md](LICENSE.md)
 
-## Repository
+## Related Projects
 
-[SpiralLogic Repository](https://github.com/username/spirallogic)
+- **[SpiralLogic Text Editor](https://github.com/TheFortThatHolds/fort-spirallogic-text-editor)** - Text editor with real-time emotional support
+- **[SpiralLogic Core](https://github.com/TheFortThatHolds/fort-spirallogic)** - Main repository with language compiler and tools
 
 ## Support
 
